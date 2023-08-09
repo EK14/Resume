@@ -16,3 +16,6 @@ The development was carried out on UIKit without third-party libraries, only by 
 6) Block my skills. Can be edited by the user. Limit cell height to one line. The maximum cell width is limited by the screen width minus the side padding. The number of cells (skills) in the section is not limited. If the text does not fit, abbreviate with three dots.
 In edit mode, a cross is added to each cell with a skill, by clicking on which, the skill is deleted. A cell with a plus sign is also added, by clicking on which a new skill is added. The skill is entered through the native Alert View.
 7) About Me. Text block. The number of lines is not limited.
+
+8) ![Frame 1 (3)](https://github.com/EK14/Resume/assets/75206974/61156c21-4550-41c7-b444-0ba302455d3c)
+
