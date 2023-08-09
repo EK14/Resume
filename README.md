@@ -1,5 +1,5 @@
 # Resume
-This project is a test task for selection for an internship at the "[Surf](https://surf.ru/)" company.
+The project is a test task that I was given to select for an internship at "[Surf](https://surf.ru/)".
 
 ## Description
 [Design template](https://www.figma.com/file/xfRZ6MHiLNO9BSUN9uVhnN/iOS-%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F?type=design&node-id=1-108&mode=design&t=qgXnoInFfN3C86nH-0)
