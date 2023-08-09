@@ -8,6 +8,11 @@ The application contains the functionality of a mini-resume, the “My Skills”
 The development was carried out on UIKit without third-party libraries, only by native means.
 
 ## Screen Composition
+<img width="178" height="350" alt="Снимок_экрана_2023-08-09_в_18 22 09-removebg-preview" src="https://github.com/EK14/Resume/assets/75206974/2bc8fcfb-0772-4ce5-be2c-8acd12e17998">
+<img width="178" height="350" alt="Снимок_экрана_2023-08-09_в_18 22 21-removebg-preview" src="https://github.com/EK14/Resume/assets/75206974/deb325b1-9c11-4698-a6b3-885622ba9450">
+<img width="178" height="350" alt="Снимок_экрана_2023-08-09_в_18 23 15-removebg-preview" src="https://github.com/EK14/Resume/assets/75206974/8a5a11a7-b1f6-4b7c-884d-d0796982cea1">
+<img width="178" height="350" alt="Снимок_экрана_2023-08-09_в_18 23 29-removebg-preview" src="https://github.com/EK14/Resume/assets/75206974/db1aa2c1-111e-4494-91b3-76127ef472a2">
+
 1) Heading "Profile".
 2) User photo.
 3) The motto of the user, brief information. The label is limited to two lines, long text is cut off with three dots.
@@ -16,8 +21,3 @@ The development was carried out on UIKit without third-party libraries, only by 
 6) Block my skills. Can be edited by the user. Limit cell height to one line. The maximum cell width is limited by the screen width minus the side padding. The number of cells (skills) in the section is not limited. If the text does not fit, abbreviate with three dots.
 In edit mode, a cross is added to each cell with a skill, by clicking on which, the skill is deleted. A cell with a plus sign is also added, by clicking on which a new skill is added. The skill is entered through the native Alert View.
 7) About Me. Text block. The number of lines is not limited.
-
-<img width="178" height="350" alt="Снимок_экрана_2023-08-09_в_18 22 09-removebg-preview" src="https://github.com/EK14/Resume/assets/75206974/2bc8fcfb-0772-4ce5-be2c-8acd12e17998">
-<img width="178" height="350" alt="Снимок_экрана_2023-08-09_в_18 22 21-removebg-preview" src="https://github.com/EK14/Resume/assets/75206974/deb325b1-9c11-4698-a6b3-885622ba9450">
-<img width="178" height="350" alt="Снимок_экрана_2023-08-09_в_18 23 15-removebg-preview" src="https://github.com/EK14/Resume/assets/75206974/8a5a11a7-b1f6-4b7c-884d-d0796982cea1">
-<img width="178" height="350" alt="Снимок_экрана_2023-08-09_в_18 23 29-removebg-preview" src="https://github.com/EK14/Resume/assets/75206974/db1aa2c1-111e-4494-91b3-76127ef472a2">
