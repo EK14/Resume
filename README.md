@@ -1,23 +1,17 @@
 # Resume
 The project is a test task that I was given to select for an internship at "[Surf](https://surf.ru/)".
 
-## Description
-[Design template](https://www.figma.com/file/xfRZ6MHiLNO9BSUN9uVhnN/iOS-%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F?type=design&node-id=1-108&mode=design&t=qgXnoInFfN3C86nH-0)
-
-The application contains the functionality of a mini-resume, the “My Skills” block is editable, the rest is hardcode. The screen can scroll.
-The development was carried out on UIKit without third-party libraries, only by native means.
-
 ## Screen Composition
 <img width="178" height="350" alt="Снимок_экрана_2023-08-09_в_18 22 09-removebg-preview" src="https://github.com/EK14/Resume/assets/75206974/2bc8fcfb-0772-4ce5-be2c-8acd12e17998">
 <img width="178" height="350" alt="Снимок_экрана_2023-08-09_в_18 22 21-removebg-preview" src="https://github.com/EK14/Resume/assets/75206974/deb325b1-9c11-4698-a6b3-885622ba9450">
 <img width="178" height="350" alt="Снимок_экрана_2023-08-09_в_18 23 15-removebg-preview" src="https://github.com/EK14/Resume/assets/75206974/8a5a11a7-b1f6-4b7c-884d-d0796982cea1">
 <img width="178" height="350" alt="Снимок_экрана_2023-08-09_в_18 23 29-removebg-preview" src="https://github.com/EK14/Resume/assets/75206974/db1aa2c1-111e-4494-91b3-76127ef472a2">
 
+## Description
+[Design template](https://www.figma.com/file/xfRZ6MHiLNO9BSUN9uVhnN/iOS-%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F?type=design&node-id=1-108&mode=design&t=qgXnoInFfN3C86nH-0)
 
-
-
-
-
+The application contains the functionality of a mini-resume, the “My Skills” block is editable, the rest is hardcode. The screen can scroll.
+The development was carried out on UIKit without third-party libraries, only by native means.
 
 1) Heading "Profile".
 2) User photo.
