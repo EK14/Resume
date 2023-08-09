@@ -9,7 +9,7 @@ The development was carried out on UIKit without third-party libraries, only by 
 
 ## Screen Composition
 1) Heading "Profile".
-2) User photo (hardcode).
+2) User photo.
 3) The motto of the user, brief information. The label is limited to two lines, long text is cut off with three dots.
 4) The user's place of residence. Limited to one line, long text is truncated with ellipsis. 
 5) The heading “My Skills” and the edit mode button. Pencil icon to enter edit mode, check mark icon to save changes.
