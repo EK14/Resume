@@ -17,5 +17,6 @@ The development was carried out on UIKit without third-party libraries, only by 
 In edit mode, a cross is added to each cell with a skill, by clicking on which, the skill is deleted. A cell with a plus sign is also added, by clicking on which a new skill is added. The skill is entered through the native Alert View.
 7) About Me. Text block. The number of lines is not limited.
 
-8) ![Frame 1 (3)](https://github.com/EK14/Resume/assets/75206974/61156c21-4550-41c7-b444-0ba302455d3c)
+<img width="178" alt="Снимок_экрана_2023-08-09_в_18 22 09-removebg-preview" src="https://github.com/EK14/Resume/assets/75206974/2bc8fcfb-0772-4ce5-be2c-8acd12e17998">
+
 
