@@ -15,6 +15,10 @@ The development was carried out on UIKit without third-party libraries, only by 
 
 
 
+
+
+
+
 1) Heading "Profile".
 2) User photo.
 3) The motto of the user, brief information. The label is limited to two lines, long text is cut off with three dots.
