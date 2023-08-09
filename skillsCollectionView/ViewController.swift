@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     
     private var aboutMeHeader: UILabel = {
         let aboutMeHeader = UILabel()
-        aboutMeHeader.text = "О себе"
+        aboutMeHeader.text = "About me"
         aboutMeHeader.textColor = .black
         aboutMeHeader.font = UIFont.systemFont(ofSize: 16, weight: .medium)
         aboutMeHeader.translatesAutoresizingMaskIntoConstraints = false
@@ -40,7 +40,7 @@ class ViewController: UIViewController {
     
     private var descr: UILabel = {
         let descr = UILabel()
-        descr.text = "Junior IOS-разработчица, опыт менее 1 года"
+        descr.text = "Junior IOS-developer, less than 1 year of experience"
         descr.numberOfLines = 0
         descr.textColor = UIColor(named: "Gray1")
         descr.font = UIFont.systemFont(ofSize: 14, weight: .regular)
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     
     private var myName: UILabel = {
         let myName = UILabel()
-        myName.text = "Карапетян Элина\nКамоевна"
+        myName.text = "Karapetian Elina"
         myName.numberOfLines = 0
         myName.font = UIFont.systemFont(ofSize: 24, weight: .bold)
         myName.textColor = .black
@@ -69,14 +69,14 @@ class ViewController: UIViewController {
     
     private var profile: UILabel = {
         let profile = UILabel()
-        profile.text = "Профиль"
-        profile.font = UIFont.systemFont(ofSize: 16, weight: .bold)
+        profile.text = "Profile"
+        profile.font = UIFont.systemFont(ofSize: 20, weight: .bold)
         profile.textColor = .black
         profile.translatesAutoresizingMaskIntoConstraints = false
         return profile
     }()
     
-    private var skills = ["UIKit", "Swift", "SwiftUI", "Rust API", "UIKit", "Swift", "SwiftUI", "Rust API"]
+    private var skills = ["UIKit", "Swift", "SwiftUI", "Rust API", "C++", "Python", "MVC", "MVVM", "CoreData", "Data structures"]
     
     private let layout = LeftAlignedCollectionViewFlowLayout()
     lazy var collectionView = DynamicHeightCollectionView(frame: .zero, collectionViewLayout: layout)
@@ -138,7 +138,7 @@ class ViewController: UIViewController {
         locationHS.translatesAutoresizingMaskIntoConstraints = false
         let locationImage = UIImageView(image: UIImage(named: "location"))
         let locationName = UILabel()
-        locationName.text = "Ереван"
+        locationName.text = "Yerevan"
         locationName.textColor = UIColor(named: "Gray1")
         locationName.font = UIFont.systemFont(ofSize: 14, weight: .regular)
         locationHS.addArrangedSubview(locationImage)
@@ -173,7 +173,7 @@ class ViewController: UIViewController {
         myName.topAnchor.constraint(equalTo: photo.bottomAnchor, constant: 10).isActive = true
         myName.leadingAnchor.constraint(equalTo: mainView.leadingAnchor, constant: 16).isActive = true
         myName.trailingAnchor.constraint(equalTo: mainView.trailingAnchor, constant: -16).isActive = true
-        myName.heightAnchor.constraint(equalToConstant: 64).isActive = true
+        myName.heightAnchor.constraint(equalToConstant: 32).isActive = true
     }
     
     private func setupPhoto(){
@@ -223,7 +223,7 @@ class ViewController: UIViewController {
     
     private func setupLabel(){
         mySkills.translatesAutoresizingMaskIntoConstraints = false
-        mySkills.text = "Мои навыки"
+        mySkills.text = "My skills"
         mySkills.font = UIFont.systemFont(ofSize: 16, weight: .medium)
         mySkills.textColor = .black
         bottomView.addSubview(mySkills)
@@ -283,15 +283,15 @@ class ViewController: UIViewController {
     
     private func showAddSkillAlert() {
 
-        let alert = UIAlertController(title: "Добавление навыка", message: "Введите название навыка, которым вы владеете", preferredStyle: .alert)
+        let alert = UIAlertController(title: "Adding a Skill", message: "Enter the name of the skill you are proficient in", preferredStyle: .alert)
 
         alert.addTextField { textField in
-            textField.placeholder = "Введите название"
+            textField.placeholder = "Enter the title"
         }
 
-        let cancelAction = UIAlertAction(title: "Отмена", style: .cancel)
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
         alert.addAction(cancelAction)
-        let addAction = UIAlertAction(title: "Добавить", style: .default) { _ in
+        let addAction = UIAlertAction(title: "Add", style: .default) { _ in
             guard let skill = alert.textFields?.first?.text else { return }
             self.addSkill(name: skill)
         }
