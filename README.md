@@ -2,7 +2,7 @@
 This project is a test task for selection for an internship at the "[Surf](https://surf.ru/)" company.
 
 ## Description
-[Template](https://www.figma.com/file/xfRZ6MHiLNO9BSUN9uVhnN/iOS-%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F?type=design&node-id=1-108&mode=design&t=qgXnoInFfN3C86nH-0)
+[Design template](https://www.figma.com/file/xfRZ6MHiLNO9BSUN9uVhnN/iOS-%D0%97%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F?type=design&node-id=1-108&mode=design&t=qgXnoInFfN3C86nH-0)
 
 The application contains the functionality of a mini-resume, the “My Skills” block is editable, the rest is hardcode. The screen can scroll.
 The development was carried out on UIKit without third-party libraries, only by native means.
