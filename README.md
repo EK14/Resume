@@ -18,5 +18,7 @@ In edit mode, a cross is added to each cell with a skill, by clicking on which, 
 7) About Me. Text block. The number of lines is not limited.
 
 <img width="178" alt="Снимок_экрана_2023-08-09_в_18 22 09-removebg-preview" src="https://github.com/EK14/Resume/assets/75206974/2bc8fcfb-0772-4ce5-be2c-8acd12e17998">
+<img width="176" alt="Снимок_экрана_2023-08-09_в_18 22 21-removebg-preview" src="https://github.com/EK14/Resume/assets/75206974/deb325b1-9c11-4698-a6b3-885622ba9450">
+
 
 
