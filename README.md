@@ -13,6 +13,8 @@ The development was carried out on UIKit without third-party libraries, only by 
 <img width="178" height="350" alt="Снимок_экрана_2023-08-09_в_18 23 15-removebg-preview" src="https://github.com/EK14/Resume/assets/75206974/8a5a11a7-b1f6-4b7c-884d-d0796982cea1">
 <img width="178" height="350" alt="Снимок_экрана_2023-08-09_в_18 23 29-removebg-preview" src="https://github.com/EK14/Resume/assets/75206974/db1aa2c1-111e-4494-91b3-76127ef472a2">
 
+
+
 1) Heading "Profile".
 2) User photo.
 3) The motto of the user, brief information. The label is limited to two lines, long text is cut off with three dots.
